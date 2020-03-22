@@ -35,5 +35,7 @@ int main() {
 		cout << "Выберите из диапазона 1-4!!!" << endl;
 	}
 
+	cin.get();
+	cin.ignore();
 	return 0;
 }

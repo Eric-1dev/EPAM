@@ -66,4 +66,5 @@ void task3() {
 		if (flag)
 			cout << word_arr[i] << " ";
 	}
+	cout << endl;
 }
