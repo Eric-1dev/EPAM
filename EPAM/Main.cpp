@@ -13,9 +13,11 @@ int main() {
 		\t2. Поиск\n \
 		\t3. Строки\n \
 		\t4. Факториал\n \
+		\t5. Скобочная последовательность\n \
 		" << endl;
 
 	cin >> task_num;
+	cin.ignore(32767, '\n');
 
 
 	switch (task_num) {
@@ -31,8 +33,12 @@ int main() {
 	case 4:
 		task4();
 		break;
+	case 5:
+		task5();
+		break;
 	default:			// Если выбрали неправильный номер
-		cout << "Выберите из диапазона 1-4!!!" << endl;
+		cout << "Выберите из диапазона 1-5!!!" << endl;
+		break;
 	}
 
 	cin.get();
